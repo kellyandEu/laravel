@@ -1,0 +1,12 @@
+create database dblaravelphp;
+use dblaravelphp;
+
+create table proyectos(
+id int not null auto_increment,
+nombre varchar(155),
+fondos varchar(155),
+montoPlan  varchar(155),
+montoPat  varchar(155),
+montofp  varchar(155),
+primary key (id)
+);
